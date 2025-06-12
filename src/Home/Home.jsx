@@ -16,11 +16,11 @@ const Home = () => {
           <p className="mb-7">Short catchy phrase about yourself</p>
 
           <div className="flex justify-around md:justify-start md:gap-10">
-            <a href="#" className="rounded-sm bg-[#181823] text-white transition-colors duration-300 hover:bg-blue-500 px-[16px] py-1 text-sm">
+            <a href="https://x.com/IiMokoena" className="rounded-sm bg-[#181823] text-white transition-colors duration-300 hover:bg-blue-500 px-[16px] py-1 text-sm" target="_blank">
               twitter/x
             </a>
-            <a href="#" className="rounded-sm bg-[#181823] text-white transition-colors duration-300 hover:bg-blue-400 px-[16px] py-1 text-sm">linkedin</a>
-            <a href="#" className="rounded-sm bg-[#181823] text-white transition-all duration-300 hover:opacity-80 px-[16px] py-1 text-sm">github</a>
+            <a href="https://www.linkedin.com/in/itumeleng-innocent-mokoena-229a72263/" className="rounded-sm bg-[#181823] text-white transition-colors duration-300 hover:bg-blue-300 px-[16px] py-1 text-sm" target="_blank">linkedin</a>
+            <a href="https://github.com/ItumelengMokoena99" className="rounded-sm bg-[#181823] text-white transition-all duration-300 hover:opacity-80 px-[16px] py-1 text-sm" target="_blank">github</a>
           </div>
         </div>
 
@@ -38,7 +38,7 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center md:py-[24px]">
       <div>
-        <span>Itumeleng</span>
+        <span>Itu Mokoena</span>
       </div>
 
       <div className="cursor-pointer md:hidden" onClick={() => setIsOpen(!isOpen)}>
@@ -75,18 +75,18 @@ const Navbar = () => {
         </li>
 
         <li className="">
-          <button className="text-white text-[1.1rem] bg-[#181823] px-[18px] py-1 rounded-sm cursor-pointer space-x-2 flex items-center">
+          <a href="https://drive.google.com/file/d/1UZs1Bg0_h_uNtD45XMDHgqJz60rEJWKZ/view?usp=drive_link" className="text-white text-[1.1rem] bg-[#181823] px-[18px] py-1 rounded-sm cursor-pointer space-x-2 flex items-center" target="_blank">
           <span>Resume</span>
           <FontAwesomeIcon icon={faDownload} style={{fontSize: "14px"}}/>
-        </button>
+        </a>
         </li>
       </ul>
 
       <div className="hidden md:block">
-        <button className="text-white text-[1.1rem] bg-[#181823] px-[18px] py-1 rounded-sm cursor-pointer space-x-2 flex items-center">
+        <a href="https://drive.google.com/file/d/1UZs1Bg0_h_uNtD45XMDHgqJz60rEJWKZ/view?usp=drive_link" className="text-white text-[1.1rem] bg-[#181823] px-[18px] py-1 rounded-sm cursor-pointer space-x-2 flex items-center" target="_blank">
           <span>Resume</span>
           <FontAwesomeIcon icon={faDownload} style={{fontSize: "14px"}}/>
-        </button>
+        </a>
       </div>
     </nav>
   )

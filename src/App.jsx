@@ -25,10 +25,10 @@ function Footer() {
       </span>
       <span className="copyright">copyright &copy; {new Date().getFullYear()}</span>
       <span className="socials space-x-2">
-        <span><a target="_blank" href="#">twitter</a></span>
-        <span><a target="_blank" href="https://github.com/">github</a></span>
-        <span><a target="_blank" href="https://www.linkedin.com/">linkedin</a></span>
-        <span><a target="_blank" href="mailto:youremail@gmail.com">mail</a></span>
+        <span><a target="_blank" href="https://x.com/IiMokoena">twitter</a></span>
+        <span><a target="_blank" href="https://github.com/ItumelengMokoena99">github</a></span>
+        <span><a target="_blank" href="https://www.linkedin.com/in/itumeleng-innocent-mokoena-229a72263/">linkedin</a></span>
+        <span><a target="_blank" href="mailto:Itumelengmokoena854@gmail.com">e-mail</a></span>
       </span>
     </footer>
   )
