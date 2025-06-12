@@ -4,7 +4,7 @@ import { useState } from "react"
 
 const Home = () => {  
   return (
-    <section className="p-[16px] md:px-[80px] text-[#181823] h-dvh">
+    <section id="home" className="p-[16px] md:px-[80px] text-[#181823] h-dvh">
       <Navbar/>
 
       <div className="md:h-full text-center md:text-justify flex md:flex-row flex-col-reverse md:flex md:justify-between gap-6 justify-start m-0 md:items-center">
@@ -50,13 +50,13 @@ const Navbar = () => {
           <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#home">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#home">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#home">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
 
@@ -75,7 +75,10 @@ const Navbar = () => {
         </li>
 
         <li className="">
-          <a className="text-white bg-[#181823] px-[28px] py-2 rounded-sm cursor-pointer">Resume</a>
+          <button className="text-white text-[1.1rem] bg-[#181823] px-[18px] py-1 rounded-sm cursor-pointer space-x-2 flex items-center">
+          <span>Resume</span>
+          <FontAwesomeIcon icon={faDownload} style={{fontSize: "14px"}}/>
+        </button>
         </li>
       </ul>
 
